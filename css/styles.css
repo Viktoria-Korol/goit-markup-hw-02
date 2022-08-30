@@ -1,0 +1,53 @@
+.page { 
+    background-color: #F5F5F5;
+    color: #212121 ; 
+}
+.list {
+    list-style: none;
+}
+/*цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* акцент при наведении #2196F3 */
+
+/*  белый (фон и текст) #FFFFFF */
+
+/* вторичный цвет фона #F5F4FA */
+
+ /* белый в футере - телефон и почта rgba(255, 255, 255, 0.6); */
+
+/* цвет шапки профиля #ECECEC */
+
+.logo {
+    color: #000000
+}
+.logo-web {
+    color: #2196F3;
+}
+
+/* Site-nav */
+.site-nav .link {
+color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.contacts .link {
+color: #757575
+}
+
+.contacts .link:hover,
+.contacts .link:focus { 
+color: #2196F3
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.section-title {
+color: #212121;
+}
