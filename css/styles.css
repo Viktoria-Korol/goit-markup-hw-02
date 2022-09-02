@@ -1,10 +1,4 @@
-.page { 
-    background-color: #F5F5F5;
-    color: #212121 ; 
-}
-.list {
-    list-style: none;
-}
+
 /*цвет основного текста #212121 */
 
 /* вторичный цвет текста #757575 */
@@ -19,35 +13,193 @@
 
 /* цвет шапки профиля #ECECEC */
 
+/* Шрифты для страницы :
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+.page {
+    background-color: #F5F5F5;
+    color: #212121;
+}
+
+.page-header {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+}
+
+
+:root {
+    --basic-color: #212121;
+    --accent-color: #2196f3;
+    --contacts-and-paragraph-color: #757575;
+    --logo-color: #000;
+    --white-color: #fff;
+    --background-btn: #F5F4FA;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* Шапка */
+.logo { 
+font-family: 'Raleway', sans-serif;  
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-accent {
+    color: var(--accent-color);}
 .logo {
     color: #000000
-}
-.logo-web {
-    color: #2196F3;
 }
 
 /* Site-nav */
 .site-nav .link {
-color: #212121;
+color: var(--basic-color);
+font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-
+/* Контакти */
 .contacts .link {
-color: #757575
+color: var(--contacts-and-paragraph-color);
+ font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .contacts .link:hover,
 .contacts .link:focus { 
-color: #2196F3
+color: var(--accent-color);
 }
-
+.contacts .address:hover,
+.contacts .address:focus {
+    color: var(--accent-color);
+}
+.contacts .address {
+    color: var(--white-color);
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+}
+/* Заголовок Герой */
 .hero-title {
-    color: #FFFFFF;
+    color: var(--white-color);
+    font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        text-transform: uppercase;
 }
 
+.button-hero {
+    background-color: var(--accent-color);
+
+    color: var(--white-color);
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        cursor: pointer;
+}
+/* Переваги */
+.p {
+    color: var(--contacts-and-paragraph-color);
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .title-p {
+        color: var(--basic-color);
+        font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.1;
+            text-transform: uppercase;
+    }
+/* Чим займаэмося */
 .section-title {
+    color: var(--basic-color);
+font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* Наша команда */
+
+.team-member {
+color: var(--basic-color);
+font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.job-education {
+color: var(--contacts-and-paragraph-color);
+font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+/*Портфоліо*/
+/* Шапка профиля */
+.page-header
+/* Список кнопок */
+
+.portfolio-btn {
+background-color: var(--background-btn);
 color: #212121;
+font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+}
+.button .portfolio-btn:hover,
+.button .portfolio-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+/* Блок з роботами */
+.header-cards {
+    color: var(--basic-color);
+font-family: 'Roboto';
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.paragraph {
+    color: var(--contacts-and-paragraph-color);
+    font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 1.8;
+}
+/* Футер */
+.link-footer {
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
