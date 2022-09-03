@@ -119,13 +119,13 @@ color: var(--accent-color);
         cursor: pointer;
 }
 /* Переваги */
-.p {
+.description {
     color: var(--contacts-and-paragraph-color);
     font-family: 'Roboto';
         font-size: 14px;
         line-height: 1.7;
     }
-    .title-p {
+    .title-description {
         color: var(--basic-color);
         font-family: 'Roboto';
             font-weight: 700;
