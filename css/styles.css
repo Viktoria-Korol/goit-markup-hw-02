@@ -115,6 +115,7 @@ color: var(--accent-color);
 
 .button-hero {
     background-color: var(--accent-color);
+    
 
     color: var(--white-color);
     font-family: 'Roboto';
@@ -123,6 +124,11 @@ color: var(--accent-color);
         line-height: 30px;
         cursor: pointer;
 }
+.button-hero:hover,
+.button-hero :focus {
+background-color: #188CE8;
+}
+
 /* Переваги */
 .description {
     color: var(--contacts-and-paragraph-color);
@@ -166,6 +172,7 @@ font-family: 'Roboto';
 }
 
 /*Портфоліо*/
+
 /* Шапка профиля */
 .page-header
 /* Список кнопок */
@@ -195,11 +202,12 @@ font-family: 'Roboto';
     line-height: 2;
 }
 
-.paragraph {
+.paragraph-caption, a{
     color: var(--contacts-and-paragraph-color);
     font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.8;
+        text-decoration: none;
 }
 /* Футер */
 .link-footer {
