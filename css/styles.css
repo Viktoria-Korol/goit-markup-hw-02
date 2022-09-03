@@ -26,6 +26,7 @@ sans-serif; */
 .page-header {
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
+        
 }
 
 
@@ -54,6 +55,8 @@ font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none
+    ;
 }
 .logo-accent {
     color: var(--accent-color);}
@@ -68,6 +71,7 @@ font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -80,6 +84,7 @@ color: var(--contacts-and-paragraph-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
 }
 
 .contacts .link:hover,
@@ -125,7 +130,7 @@ color: var(--accent-color);
         font-size: 14px;
         line-height: 1.7;
     }
-    .title-description {
+    .title-about {
         color: var(--basic-color);
         font-family: 'Roboto';
             font-weight: 700;
@@ -202,4 +207,7 @@ font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    text-decoration: none;
+    font-style: inherit;
 }
+
