@@ -18,15 +18,10 @@ font-family: 'Raleway',
 sans-serif;
 font-family: 'Roboto',
 sans-serif; */
-.page {
-    background-color: #F5F5F5;
-    color: #212121;
-}
+
 
 .page-header {
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        
 }
 
 
@@ -37,13 +32,15 @@ sans-serif; */
     --logo-color: #000;
     --white-color: #fff;
     --background-btn: #F5F4FA;
+    --background-hero-and-footer: #2F303A;
 }
 ul {
     list-style: none;
 }
 body {
-    background-color: #F5F5F5;
-    color: #757575;
+    background-color: var(--white-color);
+    color: #000000;
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -65,9 +62,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* Site-nav */
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .site-nav .link {
 color: var(--basic-color);
-font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -98,7 +98,6 @@ color: var(--accent-color);
 .contacts .address {
     color: var(--white-color);
     font-family: 'Roboto';
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
 }
@@ -111,6 +110,7 @@ color: var(--accent-color);
         line-height: 1.36;
         text-align: center;
         text-transform: uppercase;
+        background-color: var(--background-hero-and-footer);
 }
 
 .button-hero {
@@ -140,7 +140,6 @@ background-color: #188CE8;
         color: var(--basic-color);
         font-family: 'Roboto';
             font-weight: 700;
-            font-size: 14px;
             line-height: 1.1;
             text-transform: uppercase;
     }
@@ -202,9 +201,8 @@ font-family: 'Roboto';
     line-height: 2;
 }
 
-.paragraph-caption, a{
+.paragraph-caption {
     color: var(--contacts-and-paragraph-color);
-    font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.8;
         text-decoration: none;
@@ -218,4 +216,16 @@ font-family: 'Roboto';
     text-decoration: none;
     font-style: inherit;
 }
+.footer {
+    background-color: var(--background-hero-and-footer);
 
+}
+.footer-studio {
+    color: var(--white-color);
+}
+address{
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
