@@ -69,7 +69,6 @@ font-family: 'Raleway', sans-serif;
 .site-nav .link {
 color: var(--basic-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
 }
@@ -80,9 +79,7 @@ color: var(--basic-color);
 /* Контакти */
 .contacts .link {
 color: var(--contacts-and-paragraph-color);
- font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
 }
@@ -97,14 +94,11 @@ color: var(--accent-color);
 }
 .contacts .address {
     color: var(--white-color);
-    font-family: 'Roboto';
-        font-size: 14px;
         line-height: 1.7;
 }
 /* Заголовок Герой */
 .hero-title {
     color: var(--white-color);
-    font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -115,13 +109,11 @@ color: var(--accent-color);
 
 .button-hero {
     background-color: var(--accent-color);
-    
-
-    color: var(--white-color);
-    font-family: 'Roboto';
+        color: var(--white-color);
+        font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.8;
         cursor: pointer;
 }
 .button-hero:hover,
@@ -132,13 +124,10 @@ background-color: #188CE8;
 /* Переваги */
 .description {
     color: var(--contacts-and-paragraph-color);
-    font-family: 'Roboto';
-        font-size: 14px;
         line-height: 1.7;
     }
     .title-about {
         color: var(--basic-color);
-        font-family: 'Roboto';
             font-weight: 700;
             line-height: 1.1;
             text-transform: uppercase;
@@ -146,7 +135,6 @@ background-color: #188CE8;
 /* Чим займаэмося */
 .section-title {
     color: var(--basic-color);
-font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -156,7 +144,6 @@ font-family: 'Roboto';
 
 .team-member {
 color: var(--basic-color);
-font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -164,7 +151,6 @@ font-family: 'Roboto';
 }
 .job-education {
 color: var(--contacts-and-paragraph-color);
-font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -194,8 +180,6 @@ font-family: 'Roboto';
 /* Блок з роботами */
 .header-cards {
     color: var(--basic-color);
-font-family: 'Roboto';
-
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
