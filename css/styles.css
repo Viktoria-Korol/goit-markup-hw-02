@@ -158,39 +158,26 @@ color: var(--contacts-and-paragraph-color);
 /*Портфоліо*/
 
 /* Шапка профиля */
-.page-header
 /* Список кнопок */
 
-
-
 .portfolio-btn {
-
-    color: #F5F4FA;
-    font-family: 'Roboto' sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    cursor: pointer;}
-
+font-family: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.6;
+color: var(--basic-color);
+}
 
         .portfolio-btn:hover,
         .porfolio-btn:focus {
-            background-color: var(--background-btn);
-                color: #212121;
-                font-family: 'Roboto';
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.6;
-                text-align: center;
-                cursor: pointer;
+           background-color: var(--accent-color);
+           color: var(--white-color);
+           border: none;
+        }
+        .button {
+            cursor: pointer;;
         }
     
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-    background-color: var(--accent-color);
-    color: var(--white-color);
-    
-}
 /* Блок з роботами */
 .header-cards {
     color: var(--basic-color);
