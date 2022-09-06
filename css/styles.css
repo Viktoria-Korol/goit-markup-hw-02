@@ -31,7 +31,6 @@ sans-serif; */
     --contacts-and-paragraph-color: #757575;
     --logo-color: #000;
     --white-color: #fff;
-    --background-btn: #F5F4FA;
     --background-hero-and-footer: #2F303A;
 }
 ul {
@@ -162,20 +161,35 @@ color: var(--contacts-and-paragraph-color);
 .page-header
 /* Список кнопок */
 
+
+
 .portfolio-btn {
-background-color: var(--background-btn);
-color: #212121;
-font-family: 'Roboto';
+
+    color: #F5F4FA;
+    font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
-    cursor: pointer;
-}
-.button .portfolio-btn:hover,
-.button .portfolio-btn:focus {
+    cursor: pointer;}
+
+
+        .portfolio-btn:hover,
+        .porfolio-btn:focus {
+            background-color: var(--background-btn);
+                color: #212121;
+                font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.6;
+                text-align: center;
+                cursor: pointer;
+        }
+    
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
+    
 }
 /* Блок з роботами */
 .header-cards {
